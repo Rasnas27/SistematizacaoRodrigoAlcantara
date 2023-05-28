@@ -1,0 +1,282 @@
+
+body{
+    background-color: #3c154b;
+    margin: 0;
+}
+
+.navPrin, .footer{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #3c154b;
+    display: flex;
+    align-items: center;
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+
+li {
+    float: left;
+    vertical-align: middle;
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+li a:hover {
+    background-color: #3c154b;
+    color: white;
+  }
+
+#imgCeub {
+    max-height: 55px ;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+#rodape{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+#logo {
+    max-height: 55px ;
+    padding-right: 40px;
+    padding-left: 10px;
+ }
+
+#textInicial{
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px auto;
+    color: white;
+}
+
+#btn-login{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+button#loginButton {
+    box-sizing: border-box;
+    height: 40px;
+    width: 60px;
+    color: white;
+    font-size: 16px;
+    background-color: #e71984;
+    border: white;
+    border-radius: 13%;
+}
+
+button:hover {
+    background-color: #b31065;
+    cursor: pointer;
+}
+
+.body{
+    display: flex;
+}
+
+.textLeft{
+    float: left;
+    max-width: 50%;
+    margin: 10px 20px;
+    color: white;
+    justify-content: flex-end;
+
+}
+
+.textRight{
+    float: right;
+    max-width: 50%;
+    margin: 10px 20px;
+    color: white;
+    justify-content: flex-end;
+
+}
+
+p {
+color: #a3a5ae;
+font-size: 20px;
+text-align: center;
+}
+
+.container{
+    background-color: #fafafa;
+    
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.imgDireita {
+    float: right;
+    max-width: 50%;
+    margin: 10px 20px;
+}
+.imgEsquerda {
+    float: left;
+    max-width: 50%;
+    margin: 10px 20px;
+}
+
+h2 {
+    color: #7a7c82;
+    text-align: center;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+    
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 9px 8px;
+    margin-top: -8px;
+  }
+
+  .white {
+    background-color: #b9b7f0;;
+    border-radius: 50px 50px 0px 0px;
+  }
+
+  .streamers {
+    height: 188px;
+    width: 268px;
+  }
+
+  .tableUsers{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border: 1px dotted white;
+  }
+  
+  .trWhite {
+    border-bottom: 1px dotted white;
+  }
+
+  .formulario {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    margin: 30px 0 30px 30px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="number"],
+  .formulario textarea,
+   select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .formulario button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .formulario label {
+    font-weight: bold;
+  }
+  
+  .video {
+    width: 100%;
+    justify-content: center;
+    padding: 0 20px;
+  }
+ 
+
+  
